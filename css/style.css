@@ -55,6 +55,18 @@ body {
   text-transform: uppercase;
   padding: 1.8rem 3rem; }
 
+.mb-sm {
+  margin-bottom: 2rem; }
+
+.mb-md {
+  margin-bottom: 3rem; }
+
+.mb-lg {
+  margin-bottom: 4rem; }
+
+.mb-hg {
+  margin-bottom: 8rem; }
+
 .sidebar {
   background-color: #c69963;
   grid-column: sidebar-start / sidebar-end;
@@ -90,7 +102,9 @@ body {
     /* minus 1 only for explicit grids */
     transform: translateY(-1rem); }
   .feature__text {
-    font-size: 1.7rem; }
+    font-size: 1.7rem;
+    font-style: italic;
+    margin-bottom: 4rem; }
 
 .story__pictures {
   background-color: #c69963;
